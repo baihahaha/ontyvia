@@ -1,0 +1,22 @@
+# Original ChatGPT design handoff — kept locally as reference, not tracked
+FromChatGPT_Design/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Secrets / local config
+.env
+.env.*
+.claude/settings.local.json
